@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>PCB Capabilities - NextPCB</title>
+<meta name="description" content="This page introduces the PCB capabilities of NextPCB printed circuit board manufacturing. It guides you to understand whether the NextPCB factory is suitable for your PCB design.">
+<meta name="keywords" content="PCB capabilities, pcb drill hole tolerance, PCB design,Print circuit board,cheap pcb,Low Cost PCB,china pcb factory,circuit boards" />
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=1200,minimum-scale=0,maximum-scale=1200,minimal-ui">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link id="canonical" rel="canonical" href="https://www.nextpcb.com/pcb-capabilities">
+<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="/static/vendor/layui/css/layui.css?ver=f42378">
+<link rel="stylesheet" type="text/css" href="//static.nextpcb.com/css/common.css?ver=0d8c0d">
+<link rel="stylesheet" type="text/css" href="/uploads/font/font.css">
+<link rel="stylesheet" type="text/css" href="//static.nextpcb.com/css/css3.0/base.css?ver=14b61e">
+<link rel="stylesheet" type="text/css" href="//static.nextpcb.com/css/intlTelInput.css?ver=fd2523">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5SC2KNJ');</script>
+<!-- End Google Tag Manager -->
+<script>
+var sensors = null;
+</script>
+<script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Organization", "url": "http://www.nextpcb.com", "logo": "https://www.nextpcb.com/uploads/images/202104/22/1619058343-6937-EzfMdP.png " } </script>
+<script type="application/ld+json"> { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "PCB Instant quote ", "item": " https://www.nextpcb.com/pcb-quote" },{"@type": "ListItem", "position": 2, "name": " NextPCB Blog", "item": " https://nextpcb.com/blog " },{ "@type": "ListItem", "position": 3, "name": "China PCB Manufacturer-NextPCB" }] } </script>
+</script>
+
+	<link rel="stylesheet" type="text/css" href="//static.nextpcb.com/css/capabilities/base.css?ver=0e8aa9">
+</head>
+<body class="cpbl bg-base">
+    	
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SC2KNJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="topBarNew bg-inverse">
+	<div class="wrap yui-top topMsgBox clear">
+		<a href="/" class="logo">
+		  <img class="fl"  height="52" src="//static.nextpcb.com/images/newNavIcon/new_logo.svg" alt="NextPCB" />
+		  <!-- <span class="logo-slogan f-bold ">Reliable Multilayer Boards Manufacturer</span> -->
+		</a>
+		<div class="topMsg yui-top-area vlm-wrap">
+						<span class="yui-top-help  vlm hover-box-bg hover-box">
+				<em class="vlm">help</em> <i class="vlm f-tn icoy ani-str icon-trgdown"></i>
+				<div class="hover-sub hover-main ani-str">
+										<a class="hover-sub-item ani-str" href="/helpcenter">General</a>
+										<a class="hover-sub-item ani-str" href="/helpcenter">File Requirements</a>
+									</div>
+			</span>
+			<em class="vlm yui-top-split fc-dis">|</em>
+						<span class="yui-top-Language vlm hover-box google_translate_element_box">
+				<em class="vlm"> Language </em> <i class="vlm f-tn icoy ani-str icon-trgdown"></i>
+				<!-- <img src="//static.nextpcb.com/images/newNavIcon/nav_down.png"/>  -->
+				<div class="yui-top-Language-content hover-sub" id="google_translate_element"></div>
+			</span>
+						<em class="vlm yui-top-split fc-dis">|</em>
+						<span class="yui-top-cart carts vlm">
+				<a href="/order/cart" class="icoy icon-cart f-lge vlm"></a>
+				<span class="vlm u-angle-num carNum" id="ajax_Login_cart_count">0</span>
+			</span>						
+			<span id="ajax_Login"  class="yui-top-login  my_login hover-box">				
+				<a  class="yui-top-login-avast">
+					<i class="icoy icon-my f-lge vlm"></i>
+					<em class="vlm">Account</em>
+					<i class="vlm ani-str f-tn icoy icon-trgdown"></i>
+				</a>
+				<div class="myCenter hover-sub ani-str">
+										<div class="yui-top-login-info f-ct" id="ajax_Login_no">
+						<span class="yui-top-login  vlm my_noLogin">
+							<a class="vlm lbtn-base lbtn lbtn-sm lbtn-rssm" href="/login">Login</a>							
+							<a class="vlm lbtn lbtn-hollow lbtn-sm  lbtn-hollow-base lbtn-rsfew" href="/register">Sign up</a>
+							<p class="f-tiny  yui-top-login-coupons">New Customer Get <i class="fc-point"> $100 </i> Coupons</p>
+						</span>
+					</div>
+					<dl id="ajax_Login_yes" class="yui-top-login-info yui-top-login-user f-ct" style="display: none;">
+						<dt>
+							<img class="u-avast-base" src="//static.nextpcb.com/images/newNavIcon/new_user.png?v=3.10272"/>
+						</dt>
+						<dd>
+							<p class="yui-top-login-id s_id f-base">
+								ID:							</p>	
+							<p class="fc6 s_name yui-top-login-name f-base"><em class="fc-main">Hi,</em></p>
+						</dd>
+					</dl>
+										<div class="yui-top-login-list">
+						<a class="yui-top-login-item" href="/member">
+							<i class="icoy icon-my ani-str"></i>
+							<span class="hover-sub-item ani-str">My NextPCB</span>
+						</a>
+						<a class="yui-top-login-item" href="/order/cart">
+							<i class="icoy icon-cart ani-str"></i>
+							<span class="hover-sub-item ani-str">My Shopping Cart</span>
+						</a>
+						<a class="yui-top-login-item" href="/order/orderPacket">
+							<i class="icoy icon-mlall ani-str"></i>
+							<span class="hover-sub-item ani-str"> All Orders</span>
+						</a>
+						<a class="yui-top-login-item" href="/member/finance/coupon">
+							<i class="icoy icon-mlcoupon ani-str"></i>
+							<span class="hover-sub-item ani-str">  My Coupon</span>
+						</a>
+						<a class="yui-top-login-item" href="/member/setting/profile">
+							<i class="icoy icon-myinfo ani-str"></i>
+							<span class="hover-sub-item ani-str">My Profile</span>
+						</a>
+						<a class="yui-top-login-item" href="/member/setting/address">
+							<i class="icoy icon-address ani-str"></i>
+							<span class="hover-sub-item ani-str">My Shipping Address</span>
+						</a>						
+					</div>
+										<div id="ajax_loginout" class="yui-top-login-out logout" style="display: none;">
+						<a class="lbtn lbtn-rssm lbtn-hollow-base lbtn-hollow lbtn-sm" href="/logout"  >Sign Out</a>
+					</div>
+									</div>
+			</span>
+			
+		</div>
+	</div>
+	<div class="yui-nav-height">
+		<div class="nav yui-nav">
+			<div class="wrap clear">
+				<ul class="fl-lt pst-rlt">
+					<span class="navTagMove yui-nav-hover ani-str"></span>
+					<li class="yui-nav-item "><a href="/">Home</a></li>
+					<li class="yui-nav-item hover-box hover-main ">
+						<a href="/pcb-quote">Instant Quote<span class="nav_down_box"></span></a>
+						<div class="more_select  hover-sub ani-str">							
+							<a class="hover-sub-item" href="/pcb-quote">PCB Quote</a>
+							<a class="hover-sub-item" href="/pcb-assembly-quote">PCB Assembly Quote</a>
+							<a class="hover-sub-item" href="/pcb-stencil-quote">PCB Stencil Quote</a>
+						</div>
+					</li>
+					<li class="yui-nav-item hover-box hover-main "><a href="/pcb-assembly-services">PCB Assembly<span class="nav_down_box"></span></a>
+						<div class="more_select  hover-sub ani-str">
+							<!-- <a href="/pcb-assembly-services">PCB Assembly</a> -->
+							<!-- <a class="hover-sub-item" href="/assembly-capabilities">PCB Assembly Capabilities</a>
+							
+							<a class="hover-sub-item" href="/assembly-files-explanation">PCB Assembly Files Explanation</a> -->
+							<a class="hover-sub-item" href="/pcb-assembly-services">PCB Assembly</a>
+							<a class="hover-sub-item" href="/assembly-process">PCB Assembly Process</a>
+							<!-- <a class="hover-sub-item" href="/assembly-faq">PCB Assembly FAQ</a> -->
+						</div>
+					</li>
+					<li class="yui-nav-item yui-nav-product hover-box ">
+						<a href="/pcb-product">Product Center<span class="nav_down_box"></span></a>
+						<!-- <i class="yui-nav-corner">N</i> -->
+						<div class="more_select product_sublink hover-sub hover-main ani-str">
+							<div class="product_sublink-box yui-nav-product-box">
+								<dl class="product_sublink-item yui-nav-product-item">
+									<dt class="f-bold">Product Center</dt>
+									<dd>
+										<a class="toe hover-sub-item" href="/pcb-product">Products Showcase</a>
+									</dd>
+									<dt class="f-bold">Service Type</dt>
+									<dd>
+																			<a class="toe hover-sub-item"  href="/service-type/pcb-prototype" title="PCB Prototype">PCB Prototype</a>
+																			<a class="toe hover-sub-item"  href="/service-type/4-layer-pcb-stackup-and-prototype" title=" 4 Layer PCB Stackup and Prototype"> 4 Layer PCB Stackup and Prototype</a>
+																											</dd>
+									<dt class="f-bold">Tech Center</dt>
+									<dd>
+										<a class="toe hover-sub-item"  href="/dfm-faq"   title="Design For Manufacturability">Design For Manufacturability</a>
+									</dd>
+								</dl>
+								<dl class="product_sublink-item yui-nav-product-item">
+									<dt class="f-bold"><a>PCB Type</a></dt>
+									<dd>
+																			<a class="toe hover-sub-item"  href="/pcb-type/Thick-copper-PCB" title="Thick copper PCB">Thick copper PCB</a>
+																			<a class="toe hover-sub-item"  href="/pcb-type/High-TG-PCB" title="High TG PCB">High TG PCB</a>
+																			<a class="toe hover-sub-item"  href="/pcb-type/high-frequency-pcb" title="High-frequency PCB">High-frequency PCB</a>
+																			<a class="toe hover-sub-item"  href="/pcb-type/What-is-aluminum-PCB" title="Aluminum PCB">Aluminum PCB</a>
+																			<a class="toe hover-sub-item"  href="/pcb-type/hdi-pcb" title="HDI PCB">HDI PCB</a>
+																			<a class="toe hover-sub-item"  href="/pcb-type/ceramic-pcb" title="Ceramic PCB">Ceramic PCB</a>
+																			<a class="toe hover-sub-item"  href="/pcb-type/Rigid-flex-PCB" title="Rigid-flex PCB">Rigid-flex PCB</a>
+																			<a class="toe hover-sub-item"  href="/pcb-type/led-pcb" title="LED PCB">LED PCB</a>
+																			<a class="toe hover-sub-item"  href="/pcb-type/metalcore-pcb" title="Metalcore PCB">Metalcore PCB</a>
+																			<a class="toe hover-sub-item"  href="/pcb-type/Flexible-PCB" title="Flexible PCB">Flexible PCB</a>
+																											</dd>
+								</dl>
+								<dl class="product_sublink-item yui-nav-product-item">									
+									<dt class="f-bold">Applicable Industries</dt>
+									<dd>
+																			<a class="toe hover-sub-item" href="/applicable-industries/medical-pcb" title="Medical PCBs">Medical PCBs</a>
+																			<a class="toe hover-sub-item" href="/applicable-industries/automative" title="Automotive Industry PCBs">Automotive Industry PCBs</a>
+																			<a class="toe hover-sub-item" href="/applicable-industries/security-industry-PCB" title="Security Industry PCB">Security Industry PCB</a>
+																			<a class="toe hover-sub-item" href="/applicable-industries/communication-industry-pcb" title="Communication industry PCB">Communication industry PCB</a>
+																			<a class="toe hover-sub-item" href="/applicable-industries/military-pcb" title="Military PCB">Military PCB</a>
+																			<a class="toe hover-sub-item" href="/applicable-industries/Power-industry-pcb" title="Power industry PCB">Power industry PCB</a>
+																											</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li class="yui-nav-item hover-box hover-main  active">
+						<a href="/pcb-capabilities">Capabilities<span class="nav_down_box"></span></a>
+						<div class="more_select hover-sub ani-str">
+							<a class="hover-sub-item" href="/pcb-capabilities">PCB Capabilities</a>
+							<a class="hover-sub-item" href="/pcb-assembly-capabilities">PCB Assembly Capabilities</a>
+							<a class="hover-sub-item" href="/pcb-manufacturing-process">PCB Manufacturing Process</a>
+							<!-- <a class="hover-sub-item" href="#">Multi-layer laminated structure</a> -->
+							<!-- <a class="hover-sub-item" href="/altium-gerber-export-guide">Altium Gerber File Export Guide</a>
+							<a class="hover-sub-item" href="/diptrace-gerber-export-guide">Diptrace Gerber File Export Guide</a>
+							<a class="hover-sub-item" href="/eagle-gerber-export-guide">Eagle Gerber File Export Guide</a>
+							 -->
+						</div>
+					</li>
+					<li class="yui-nav-item hover-box hover-main ">
+						<a href="/about-nextpcb">About Us<span class="nav_down_box"></span></a>
+						<img style="position: absolute;top: 2px; right: -6px;" src="//static.nextpcb.com/images/index-nav-3dvr.gif?v=4">
+						<div class="more_select hover-sub ani-str">
+							<a class="hover-sub-item" href="/about-nextpcb">About Us</a>							
+							<a class="hover-sub-item" href="/why-us">Why Us</a>
+							<a class="hover-sub-item" href="/pcb-factory-VR-visiting" target="_blank" style="position: relative;">PCB Factory VR Visiting <img style="position: absolute;top: 4px; right: 6px;" src="//static.nextpcb.com/images/quote/quoteTag.png?v=4"></a>
+							<a class="hover-sub-item" href="/payment">Payment Methods</a>
+							<a class="hover-sub-item" href="/assembly-factory-show">PCB Assembly Factory Show</a>
+							<a class="hover-sub-item" href="/shipment">Shipping Methods</a>
+							<a class="hover-sub-item" href="/certificate">Certificate</a>
+							<!-- <a href="/shipment">Certified Systems</a> -->
+						</div>
+					</li>
+					<li class="yui-nav-item">
+						<a href="/nextdfm" target="_blank">NextDFM<span class="nav_down_box"></span></a>
+					</li>
+					<!-- <li class="yui-nav-item "><a href="/pcb-feedback">Feedback</a></li> -->
+					<li class="yui-nav-item hover-box hover-main "><a href="/blog">Blog<span class="nav_down_box"></span></a>
+						<div class="more_select hover-sub ani-str">
+							<a class="hover-sub-item" href="/blog">Blog</a>
+							<a class="hover-sub-item" href="/news">News</a>
+							<!-- <a href="/pcb-vocabulary">Product Center</a> -->
+							<a class="hover-sub-item" href="/pcb-vocabulary">PCB Vocabulary</a>
+						</div>
+					</li>
+					<li class="yui-nav-item  "><a href="/contactus">Contact Us</a></li>
+				</ul>
+				<a class="yui-nav-btn fl-gt uline-hover" href="/pcb-quote">Quote now</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="yui-nav-fixed rightNav">
+    <ul>
+        <li class="items yui-nav-fixed-cart">
+			<a class="items-h ani-str" href="/order/cart" target="_blank">
+				<span class="u-angle-num">0</span>
+				<i class="icoy fc-gnr f-big icon-cart"></i>
+			</a>
+		</li>
+		<li class="items">
+			<a class="items-h ani-str" href="skype:nextpcb@outlook.com?add">
+				<i class="icoy fc-gnr f-big icon-skype"></i>
+			</a>
+		</li>
+		<li class="items yui-nav-fixed-contactus hover-box">
+			<span class="items-h ani-str">
+				<i class="icoy fc-gnr f-big icon-salemant"></i>
+			</span>
+			<dl class="hover-sub lay-table">
+									<dt class="lay-table-item">
+						<img src="//static.nextpcb.com/images/newCenter/c_t_4.png" class="u-avast-base">
+					</dt>
+					<dd class="lay-table-item" style="padding-left: 12px;">
+						<p class="f-nowrap hover-sub-item"><i class="icoy vlm f-few icon-saleman"></i> &nbsp; <strong>NextPCB</strong></p>
+						<p class="f-nowrap hover-sub-item"><i class="icoy vlm f-few icon-email"></i> &nbsp; <a href="mailto:support@nextpcb.com">support@nextpcb.com</a></p>
+						<p class="f-nowrap hover-sub-item"><i class="icoy vlm f-few icon-tel"></i> &nbsp; <a href="tel:0086-755-83643663">0086-755-83643663</a></p>
+						<p class="f-nowrap hover-sub-item"><i class="icoy vlm f-few icon-whatsapp"></i> &nbsp; <a>+86 15013838486</a></p>
+					</dd>
+							</dl>
+		</li>
+		<li class="items hover-box">
+			<a class="items-h ani-str" href="mailto:support@nextpcb.com">
+				<i class="icoy fc-gnr f-big icon-email"></i>
+			</a>
+			<a href="mailto:support@nextpcb.com" class="hover-sub f-nowrap  hover-sub-item">
+				<i class="icoy  vlm f-few icon-email"></i>
+				&nbsp;
+				<span>support@nextpcb.com</span>
+			</a>
+		</li>
+        <li class="items  goTop">
+			<span class="items-h ani-str ">
+				<i class="icoy fc-gnr f-grt icon-gotop"></i>
+			</span>
+		</li>
+    </ul>
+</div>	
+	<div class="cpbl-banner vlm-wrap" style="background-image: url('//static.nextpcb.com/images/capabilities/cpbl-banner.png');">
+		<div class="cpbl-banner-box vlm fc-inserve">
+			<h1 class="f-hgsp pb30">PCB Capabilities</h1>
+			<p class="f-base">In the table below is a key PCB capability list of NextPCB’s printed circuit board manufacturing. This table is designed to 
+	help you understand if our capabilities are a match for your design. It will also allow you to plan ahead and create your 
+	design within these capabilities so that you can be sure we can produce your PCB.</p>
+		</div>
+	</div>
+	<div class="wrap pb30 mb30 cpbl-container">		
+		<div class="cpbl-tab active ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge">PCB Specifications</span>
+				<span class="icoy fr f-big  icon-pminus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="25%">Items</th>
+							<th width="25%">Manufacturing Capabilities</th>
+							<th width="25%">Notes</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Layer count</td>
+							<td>1, 2, 4, 6, 8, 10, 12, 14, 16, 18, <br> 20 layers</td>
+							<td>Quantity of copper layers on the board</td>
+							<td>/</td>
+						</tr>
+						<tr>
+							<td>Impedance</td>
+							<td>
+								For 4, 6, 8, 10, 12, 14, 16, 18, 
+								20 layers PCB, 
+								PCB Stackup designed by 
+								NextPCB(by default), or PCB Stackup 
+								designed by customers
+							</td>
+							<td>
+								<p class="uline-hover-main"> Layer Stackup Structure </p>
+								<p class="uline-hover-main">Impedance Calculation Parameter</p>
+							</td>
+							<td>/</td>
+						</tr>
+						<tr>
+							<td>Impedance tolerance</td>
+							<td>±10%</td>
+							<td>/</td>
+							<td>/</td>
+						</tr>
+						<tr>
+							<td>Material</td>
+							<td>FR-4, Aluminum, Rogers, Copper</td>
+							<td>FR-4: TG130/TG150/TG170</td>
+							<td><img src="//static.nextpcb.com/images/capabilities/cpbl-tab1.jpg" ></td>
+						</tr>
+						<tr>
+							<td>PCB material dielectric constant</td>
+							<td>4.2</td>
+							<td>Prepreg dielectric constant
+								(prepregtype: 7628/1080/2313/2116, 
+								dielectric constant: 4.2)
+							</td>
+							<td>/</td>
+						</tr>
+						<tr>
+							<td>Max. dimension</td>
+							<td>1-2 layers: 500*600mm <br>
+								4-20 layers: 400*500mm</td>
+							<td>
+								The maximum dimension that <br>
+								NextPCB can do
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab2.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Min. dimension</td>
+							<td>Length and width ≥10mm</td>
+							<td>Min. dimension = 10*10mm</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>Dimension tolerance</td>
+							<td>CNC: ±0.15mm, V-CUT: ±0.2mm </td>
+							<td>±0.15mm for CNC routing,  <br> and ±0.2mm for V-scoring</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>PCB thickness</td>
+							<td>0.6/0.8/1.0/1.2/1.6/2.0/2.5/3.0/3.2mm</td>
+							<td>The thickness of finished board</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab3.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Thickness tolerance <br>
+								( Thickness≥1.0mm)
+							</td>
+							<td>±10%</td>
+							<td>
+								e.g. If the board thickness is 1.6mm, 
+								the finished board thickness ranges 
+								from 1.44mm(1.6-1.6×10%) to 
+								1.76mm(1.6+1.6×10%)
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Thickness tolerance <br>
+								( Thickness &lt; 1.0mm)
+							</td>
+							<td>±0.1mm</td>
+							<td>
+								e.g. If the board thickness is 0.8mm, 
+								the finished board thickness ranges 
+								from 0.7mm(0.8-0.1) to 0.9mm(0.8+0.1)
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Finished copper weight
+							</td>
+							<td>1 oz/2 oz/3 oz/4 oz/5 oz/6 oz</td>
+							<td>
+								Finished copper weight of outer layer 
+								could be 1 oz/2 oz/3 oz/4oz/5 oz/6 oz
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab4.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Inner copper weight
+							</td>
+							<td>0.5 oz/1 oz/2 oz/3 oz/4 oz</td>
+							<td>
+								Finished copper weight of inner layer 
+								could be 0.5 oz/1 oz/2 oz/3 oz/4 oz
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab5.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Surface finish
+							</td>
+							<td>HASL/Lead free HASL/ENIG/OSP</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								HDI structure
+							</td>
+							<td>Rank 1 /Rank 2 /Rank 3 </td>
+							<td>
+								Mechanical blind buried vias or laser 
+								blind buried vias(electroplating 
+								Via-filling is available) or laser blind 
+								vias filling dimple ≤ 15µm
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Electrical test
+							</td>
+							<td>Flying Probe/Special test fixture </td>
+							<td>
+								No limits for Flying Probe.
+								Max. 14000 Pads can be tested by 
+								PCB test fixture
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Beveling angle of gold finger
+							</td>
+							<td>20°/30°/45°/60°</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Beveling angle tolerance of gold finger
+							</td>
+							<td>±5°</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Beveling depth tolerance of gold finger
+							</td>
+							<td>±0.1mm</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Outline tolerance
+							</td>
+							<td>±0.15mm</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								V-CUT angle
+							</td>
+							<td>30°/45°/60°</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Number of V-CUT
+							</td>
+							<td>≤30 cuts</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								V-CUT outline size
+							</td>
+							<td>55mm ≤ length/width ≤ 480mm</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>
+								V-CUT residue thickness
+							</td>
+							<td>0.25mm ≤ v-cut residue thickness ≤ 0.4mm</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">Drill/Hole Size</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse" style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="25%">Items</th>
+							<th width="25%">Manufacturing Capabilities</th>
+							<th width="25%">Notes</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Drill hole size(Mechanical)</td>
+							<td>0.15-6.5mm</td>
+							<td>Min. drill hole size: 0.15mm(available 
+								for PCB thickness ≤ 1.2mm)
+								Max. diameter of drilling bits is 
+								6.5mm(contact support@nextpcb.com 
+								if your customed hole size &gt; 6.5mm)
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two1.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Drill hole size tolerance</td>
+							<td>≤0.05mm</td>
+							<td>/</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2">Blind/Buried vias</td>
+							<td>Mechanical blind buried vias: copper thickness of blind vias ≥ 20µm</td>
+							<td>/</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two2.jpg" >
+							</td>
+						</tr>
+						<tr>							
+							<td>Laser blind buried vias: dimple ≤ 10µm</td>
+							<td>/</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two3.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Via pad size</td>
+							<td>≥0.1</td>
+							<td>The pad hole size will be enlarged 0.125mm in production</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two4.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>PTH hole size</td>
+							<td>0.2mm (for single side)</td>
+							<td>The annular ring size will be enlarged to 0.2mm in production</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two5.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Min. non-plated holes</td>
+							<td>0.4mm</td>
+							<td>/</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two6.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Min. plated slots</td>
+							<td>0.5mm</td>
+							<td>/</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two7.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Min. non-plated slots</td>
+							<td>0.5mm</td>
+							<td>/</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two8.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Min. castellated holes</td>
+							<td>0.5mm</td>
+							<td>The minimum diameter of castellated holes is 0.50mm</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two9.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Hole size tolerance(Plated)</td>
+							<td>±0.075mm</td>
+							<td>
+								e.g. If customed Plated hole size is 
+								1.000mm, the finished hole size could 
+								be between 0.925mm to 1.075mm
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two10.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Hole size Tolerance(Non-Plated)</td>
+							<td>±0.05mm</td>
+							<td>
+								e.g. If customed Non-Plated hole 
+								size is 1.000mm, the finished hole 
+								size could be between 0.95mm to 
+								1.05mm
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two11.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Rectangle hole/Slot</td>
+							<td>With or without fillet angle </td>
+							<td>/</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-two12.jpg" >
+							</td>
+						</tr>
+					</tbody>	
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">Minimum Annular Ring</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse"  style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="25%">Items</th>
+							<th width="25%">Manufacturing Capabilities</th>
+							<th width="25%">Notes</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1 oz Copper</td>
+							<td>3.5mil (single side) (3.5mil≈0.09mm)</td>
+							<td>/</td>
+							<td rowspan="2">
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-three1.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>2 oz Copper</td>
+							<td>4.5mil (single side) (4.5mil≈0.11mm)</td>
+							<td>/</td>							
+						</tr>						
+					</tbody>	
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">Minimum Clearance</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse"  style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="37.5%">Items</th>
+							<th width="37.5%">Manufacturing Capabilities</th>							
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Hole to hole clearance(Different nets)</td>
+							<td>≥12mil(Avoid conductive anodic filament)(12mil≈0.30mm)</td>							
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-four1.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Via to via clearance(Same nets)</td>
+							<td>≥8mil  (8mil≈0.20mm)</td>							
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-four2.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>SMD pad to SMD pad clearance(Pad without hole, different nets)</td>
+							<td>≥0.15mm</td>							
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-four3.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Pad to pad clearance(Pad with hole, different nets)</td>
+							<td>≥0.40mm</td>							
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-four4.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Via to track</td>
+							<td>≥7mil  (7mil≈0.18mm)</td>							
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-four5.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>PTH to track</td>
+							<td>≥9mil  (9mil≈0.23mm)</td>							
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-four6.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>NPTH to track</td>
+							<td>≥8mil  (8mil≈0.20mm)</td>							
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-four7.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>SMD pad to track</td>
+							<td>≥4mil  (4mil≈0.10mm)</td>							
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-four8.jpg" >
+							</td>
+						</tr>
+					</tbody>	
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">Minimum Trace Width and Spacing</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse"  style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="25%">Copper weight</th>
+							<th width="25%">Min. trace width</th>
+							<th width="25%">Min. spacing</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>H/HOZ(0.5oz Inner layer)</td>
+							<td>2.5mil  (2.5mil≈0.06mm)</td>
+							<td>3mil  (3mil≈0.08mm)</td>
+							<td rowspan="3">
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-five1.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>1 oz(Outer layer)</td>
+							<td>3mil  (3mil≈0.08mm)</td>
+							<td>3mil  (3mil≈0.08mm)</td>							
+						</tr>
+						<tr>
+							<td>2 oz(Outer layer)</td>
+							<td>5.5mil  (5.5mil≈0.14mm)</td>
+							<td>5.5mil  (5.5mil≈0.14mm)</td>							
+						</tr>
+					</tbody>	
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">BGA</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse"  style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="14.46%">Layer count</th>
+							<th width="19.6%">Min. BGA pad dimensions</th>
+							<th width="22.14%">Min. distance between BGA</th>
+							<th width="18.8%">Min. spacing between the center of two BGAs</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1 oz</td>
+							<td>≥0.2mm</td>
+							<td>0.15mm</td>
+							<td>0.45mm</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-six1.jpg" >
+							</td>
+						</tr>												
+					</tbody>	
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">Solder Mask</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse"  style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="25%">Items</th>
+							<th width="25%">Manufacturing Capabilities</th>
+							<th width="25%">Notes</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Solder mask opening/expansion</td>
+							<td>≥1.5mil (1.5mil≈0.04mm)</td>
+							<td>
+								There should be a minimum size of 
+								1.5mil "solder mask opening" around 
+								the pad to allow for any misregistration
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-seven1.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Solder bridge</td>
+							<td>
+								Green: 3.5mil <br>
+								Black/White: 5mil <br>
+								other solder mask: 4mil
+							</td>
+							<td>
+								To build solder bridge, the spacing 
+								between copper pads edge must 
+								be 3.5mils or more
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-seven2.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Solder mask color</td>
+							<td>
+								Green/Red/Yellow/Blue/White/
+								Matte Black/Black
+							</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>Solder mask dielectric constant</td>
+							<td>
+								3.5
+							</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>Solder mask thickness</td>
+							<td>
+								Solder mask thickness on base 
+								material: 0.8mil, solder mask 
+								thickness on copper: 0.6mil
+							</td>
+							<td>
+								/
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+					</tbody>	
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">Legend</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse"  style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="25%">Items</th>
+							<th width="25%">Manufacturing Capabilities</th>
+							<th width="25%">Notes</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Minimum line width</td>
+							<td>
+								Silkscreen printing≥5mil <br>
+								(5mil≈0.12mm)
+								<br><br>
+								Printer printing≥3mil <br>
+								(3mil≈0.08mm)
+							</td>
+							<td>
+								Characters width &lt;  3mil(0.076mm) <br>
+								will be unidentifiable
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-eight1.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Minimum text height</td>
+							<td>
+								Silkscreen printing≥30mil
+								(30mil≈0.76mm)
+								<br>
+								<br>
+								Printer printing≥24mil
+								(24mil≈0.61mm)
+							</td>
+							<td>
+								Characters height &lt; 24mil(0.61mm) 
+								will be unidentifiable
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-eight2.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Character width to height ratio</td>
+							<td>
+								≥ 6:1 
+							</td>
+							<td>
+								The preferred ratio of width to 
+								height is 6:1
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>Pad to silkscreen</td>
+							<td>
+								>6mil (6mil≈0.15mm)
+							</td>
+							<td>
+								The minimum distance between pad 
+								and silkscreen is 0.15mm
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-eight4.jpg" >
+							</td>
+						</tr>
+					</tbody>	
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">Board Outlines</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse"  style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="25%">Items</th>
+							<th width="25%">Manufacturing Capabilities</th>
+							<th width="25%">Notes</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Trace to outline</td>
+							<td>≥0.2mm</td>
+							<td>
+								Individual board(Rounting): Trace 
+								to Outline ≥ 0.2mm
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-nine1.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Trace to V-cut line</td>
+							<td>≥0.4mm</td>
+							<td>
+								Panel  board with V-scoring: Trace 
+								to V-cut line ≥0.4mm
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-nine2.jpg" >
+							</td>
+						</tr>
+					</tbody>	
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">Panelization</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse"  style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="25%">Items</th>
+							<th width="25%">Manufacturing Capabilities</th>
+							<th width="25%">Notes</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Panelization without space</td>
+							<td>0mm</td>
+							<td>
+								No space between panelized PCBs
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-ten1.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Panelization with space</td>
+							<td>≥1.6mm</td>
+							<td>
+								The space between panelized PCBs 
+								should ≥ 1.6mm, if not, the routing 
+								process may be difficult and low 
+								efficiency
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-ten2.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Panelized round board</td>
+							<td>≥80mmx80mm</td>
+							<td>
+								Stamp Hole: hole size=0.5mm, 
+								copper gap=0.35mm, 5-7holes 
+								for a set by default
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-ten3.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Panelized castellated holes board</td>
+							<td>
+								Panelize with stamp holes and add 
+								tooling strips on four board edges
+							</td>
+							<td>
+								The distance between castellated 
+								hole and board corner should 
+								be > 4mm
+								<br><br>
+								Recommended diameter of stamp 
+								hole is 0.5mm-0.8mm
+								<br><br>
+								Recommended distance between 
+								the two stamp holes is 0.2mm-0.3mm
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-ten4.jpg" >
+								<br><br>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-ten5.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Min. width of breakaway tab</td>
+							<td>≥4mm</td>
+							<td>
+								The minimum width of breakaway 
+								tab is 4mm. For breakaway with 
+								mouse-bites, the minimum width 
+								is 5mm
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-ten6.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>Min. edge rails</td>
+							<td>≥3mm</td>
+							<td>
+								If you choose panel by NextPCB, 
+								we will add 3mm edge rails on both 
+								sides by default
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-ten7.jpg" >
+							</td>
+						</tr>
+					</tbody>	
+				</table>
+			</div>
+		</div>
+		
+		<div class="cpbl-tab ani-str">
+			<div class="cpbl-tab-title ani-str">
+				<span class="lt f-baselge ">Manufacturable Notes for Different PCB Design Softwares</span>
+				<span class="icoy fr f-big  icon-pplus ani-str"></span>
+			</div>
+			<div class="cpbl-tab-con bg-inverse"  style="display: none;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th width="25%">Items</th>
+							<th width="25%">Manufacturing Capabilities</th>
+							<th width="25%">Notes</th>
+							<th width="25%">Patterns</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2">PADS</td>
+							<td>copper-pour pattern</td>
+							<td>
+								NextPCB Fab uses hatch pattern 
+								by default, please note your 
+								copper-pour pattern when placing 
+								an order
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-eleven1.jpg" >
+							</td>
+						</tr>
+						<tr>							
+							<td>2D line</td>
+							<td>
+								Valid lines cannot be placed in the 
+								corresponding layer as 2D lines, 
+								NextPCB does not process 2D lines
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="4">Altium Designer Protel</td>
+							<td>Version</td>
+							<td>
+								There are elements missing issues in 
+								generating Gerber files from different 
+								versions of Altium Designer. Please 
+								note your  version No.  of Altium 
+								Designer when placing an order
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>							
+							<td>Parts outside PCB</td>
+							<td>
+								If the components were placed far 
+								away from the PCB board, file 
+								generating would failed because the 
+								boundary of the board is too large
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+						<tr>
+							<td>solder mask opening</td>
+							<td>
+								Please do not put the opening of the 
+								solder layer on the paste layer by 
+								mistake, NextPCB does nothing to the 
+								paste layer
+							</td>
+							<td>
+								<img src="//static.nextpcb.com/images/capabilities/cpbl-tab-eleven2.jpg" >
+							</td>
+						</tr>
+						<tr>
+							<td>copper-pour pattern</td>
+							<td>
+								Fill pattern: too much filling region 
+								will causing region missing when 
+								generating a file, Tip: choosing 
+								Polygon copper-pour pattern
+							</td>
+							<td>
+								/
+							</td>
+						</tr>
+					</tbody>	
+				</table>
+			</div>
+		</div>	
+	</div>
+	<footer class="yui-foot">
+	<div class="wrap">
+		<div class="yui-foot-lay yui-foot-linklist">
+			<dl class="yui-foot-lay-item">
+				<dt>Products & Service</dt>
+				<dd>
+					<a href="/pcb-quote">PCB Quote</a>
+					<a href="/pcb-assembly-quote">PCB Assembly Quote</a>
+					<a href="/pcb-stencil-quote">PCB Stencil Quote</a>
+					<a href="/pcb-capabilities">PCB Capabilities </a>
+					<a href="/pcb-assembly-capabilities">PCB Assembly Capabilities </a>
+					<a href="/nextdfm.html" target="_blank">NextDFM</a>
+				</dd>
+			</dl>
+			<dl class="yui-foot-lay-item">
+				<dt>Customer Support</dt>
+				<dd>
+					<a href="/helpcenter">Help</a>
+					<a href="/pcb-vocabulary">PCB Vocabulary</a>
+					<a href="/pcb-product">Product Center</a>
+				</dd>
+			</dl>
+			<dl class="yui-foot-lay-item">
+				<dt><a href="/about-nextpcb">About NextPCB</a></dt>
+				<dd>
+					<a href="/about-nextpcb">About Us</a>
+					<a href="/why-us">Why Us</a>
+					<a href="/payment">Payments Method</a>
+					<!-- <a href="/pcb-factory-VR-visiting">PCB Assembly Factory Show</a> -->
+					<a href="/shipment">Shipping Methods</a>
+					<a href="/certificate">Certificate</a>
+				</dd>
+			</dl>
+			<dl class="yui-foot-lay-item">
+				<dt>Support</dt>
+				<dd>
+					<a href="/general-provisions">Terms and Cooperation</a>	
+					<a href="/return-policy">Return policy</a>
+				</dd>
+			</dl>
+		</div>
+		<div class="yui-foot-lay yui-foot-imgflags">
+			<dl class="yui-foot-lay-item">
+				<dt>Payments Method</dt>
+				<dd>
+					<img src="//static.nextpcb.com/images/img30/foot-flagimg1.jpg" >
+				</dd>
+			</dl>
+			<dl class="yui-foot-lay-item">
+				<dt>Shipping Methods</dt>
+				<dd><img src="//static.nextpcb.com/images/img30/foot-flagimg2.jpg" ></dd>
+			</dl>
+			<dl class="yui-foot-lay-item">
+				<dt>Certiticate</dt>
+				<dd><a href="/certificate"><img src="//static.nextpcb.com/images/img30/foot-flagimg3.jpg" ></a></dd>
+			</dl>
+			<dl class="yui-foot-lay-item">
+				<dt>Social Media</dt>
+				<dd>
+					<a rel="nofollow" href="https://bit.ly/2Lfhqq9" target="_blank"><img src="//static.nextpcb.com/images/newNavIcon/tubiao1.png" alt="NEXTPCB Official youtube" /></a>
+					<a rel="nofollow" href="https://bit.ly/2ZgGZAR" target="_blank"><img src="//static.nextpcb.com/images/newNavIcon/tubiao2.png" alt="NEXTPCB Official Facefook" /></a>
+					<a rel="nofollow" href="https://bit.ly/2NzXIZ1" target="_blank"><img src="//static.nextpcb.com/images/newNavIcon/tubiao3.png" alt="NEXTPCB Official Twitter" /></a>
+					<a rel="nofollow" href="https://bit.ly/2ZegCeO" target="_blank"><img src="//static.nextpcb.com/images/newNavIcon/tubiao4.png" alt="NEXTPCB Official Instagram" /></a>
+					<a rel="nofollow" href="https://www.linkedin.com/company/nextpcb" target="_blank"><img src="//static.nextpcb.com/images/newNavIcon/tubiao5.png" alt="NEXTPCB Official Linkedin" /></a>
+				</dd>
+			</dl>
+		</div>
+		<ul class="yui-foot-lay yui-foot-submit">
+			<li  class="yui-foot-lay-item">
+				<a href="/"> <img src="//static.nextpcb.com/images/img30/footer-logo.png" ></a>
+			</li>
+			<li class="yui-foot-lay-item">
+				<a href="/nextdfm.html" target="_blank"> <img src="//static.nextpcb.com/images/img30/foot-dfm-logo.png" ></a>
+			</li>
+			<li class="yui-foot-lay-item">
+				<p><i class="icoy mr5 icon-email"></i>  E-mail:<a href="mailto:support@nextpcb.com"> support@nextpcb.com </a></p>
+				<p><a href="skype:nextpcb@outlook.com"><i class="icoy mr5 icon-skypehollow"></i> 	Skype: nextpcb@outlook.com</a> </p>
+				<p><a>	<i class="icoy mr5 icon-whatsapp"></i> Whatsapp: +86 15013838486</a></p>
+				<p><a href="tel:0086-755-83643663"><i class="icoy mr5 icon-tel"></i> Tel.: +86-0755-83643663</a></p>
+			</li>
+			<li class="yui-foot-lay-item">
+				<div class="yui-foot-feedback" id="feedback">
+					<!-- <input type="text" placeholder="  Name" name="name"> -->
+					<input type="text" placeholder="* Email" name="email">
+					<textarea id="" rows="4" placeholder="* Message" name="content"></textarea>
+					<button type="submit">Send message</button>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="yui-foot-copyright">
+		<p>©2021 NEXTPCB All Rights Reserved. Address: No.6 YuminRoad, Shajing Town, Baoan District, Shenzhen, 518000, China</p>
+	</div>
+</footer>
+<!----$Request.module-- home--$Request.controller-- Quote --$Request.action online -->
+<!-- begin olark code -->
+<script type="text/javascript" async>
+	;(function(o, l, a, r, k, y) {
+		if (o.olark) return;
+		r = "script";
+		y = l.createElement(r);
+		r = l.getElementsByTagName(r)[0];
+		y.async = 1;
+		y.src = "//" + a;
+		r.parentNode.insertBefore(y, r);
+		y = o.olark = function() {
+			k.s.push(arguments);
+			k.t.push(+new Date)
+		};
+		y.extend = function(i, j) {
+			y("extend", i, j)
+		};
+		y.identify = function(i) {
+			y("identify", k.i = i)
+		};
+		y.configure = function(i, j) {
+			y("configure", i, j);
+			k.c[i] = j
+		};
+		k = y._ = {
+			s: [],
+			t: [+new Date],
+			c: {},
+			l: a
+		};
+	})(window, document, "static.olark.com/jsclient/loader.js");
+	/* custom configuration goes here (www.olark.com/documentation) */
+	olark.identify('9444-684-10-8799');
+</script>
+<!-- end olark code -->
+<script>var loginState = 'logout', accountId = '0';</script>
+<script type="text/javascript" src="//static.nextpcb.com/vendor/layui/layui.all.js?ver=11fec4"></script>
+<script type="text/javascript" src="//static.nextpcb.com/vendor/hello/hello.all.min.js?ver=bb8c35"></script>
+<script type="text/javascript" src="//static.nextpcb.com/js/jquery-1.8.3.min.js?ver=3576a6"></script>
+<script type="text/javascript" src="//static.nextpcb.com/vendor/dialog.js?ver=185454"></script>
+<script type="text/javascript" src="//static.nextpcb.com/js/plugins.js?ver=ae4be6"></script>
+<script type="text/javascript" src="//static.nextpcb.com/js/common.js?ver=ff9092"></script>
+<script type="text/javascript" src="//static.nextpcb.com/js/js3.0/base.js?ver=00b26f"></script>
+
+<script>
+    var shareasaleSSCID=shareasaleGetParameterByName("sscid");
+    function shareasaleSetCookie(e,a,r,s,t){
+        if(e&&a){
+            var o,n=s?"; path="+s:"",i=t?"; domain="+t:"",l="";r&&((o=new Date).setTime(o.getTime()+r),l="; expires="+o.toUTCString()),document.cookie=e+"="+a+l+n+i
+        }
+    }
+    function shareasaleGetParameterByName(e,a){
+        a||(a=window.location.href),e=e.replace(/[\[\]]/g,"\\$&");
+        var r=new RegExp("[?&]"+e+"(=([^&#]*)|&|#|$)").exec(a);return r?r[2]?decodeURIComponent(r[2].replace(/\+/g," ")):"":null
+    }
+    shareasaleSSCID&&shareasaleSetCookie("shareasaleSSCID",shareasaleSSCID,94670778e4,"/");    
+</script>
+
+
+	<script type="text/javascript">
+		var cpblBox = $(".cpbl-container");
+		var items = cpblBox.find(".cpbl-tab");
+			items.find(".cpbl-tab-title").on("click",function(){
+				var closeSt = $(this).closest(".cpbl-tab");
+				var titleicoys = items.find(".cpbl-tab-title .icoy");
+				var titleicoy = closeSt.find(".cpbl-tab-title .icoy");
+				var con = closeSt.find(".cpbl-tab-con");
+				var cons = items.find(".cpbl-tab-con");
+				if(closeSt.hasClass("active")){
+					closeSt.removeClass("active");	
+					con.slideUp();
+					titleicoy.removeClass("icon-pminus").addClass("icon-pplus");
+				}else{
+					//titleicoys.removeClass("icon-pminus").addClass("icon-pplus");
+					titleicoy.removeClass("icon-pplus").addClass("icon-pminus");
+					//items.removeClass("active");
+					//cons.slideUp();
+					closeSt.addClass("active");
+					con.slideDown();					
+				}
+				
+			});
+	</script>
+</body>
+</html>
