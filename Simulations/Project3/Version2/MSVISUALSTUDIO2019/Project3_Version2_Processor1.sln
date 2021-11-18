@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project003", "Project003.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Segment-3.0.0", "Libraries\Segment\3.0.0\Segment\Segment-3.0.0.vcxitems", "{62E3B7CA-FBDF-4BB8-B184-A4B0AD44C292}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GyverButton-3.8", "Libraries\GyverButton\3.8\GyverButton\GyverButton-3.8.vcxitems", "{F444FCE7-F10D-4BF2-899D-03B7DF112CB6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GyverTimers-1.9", "Libraries\GyverTimers\1.9\GyverTimers\GyverTimers-1.9.vcxitems", "{CB631EC7-412E-40FD-9C4F-33B3470218FD}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\Segment\3.0.0\Segment\Segment-3.0.0.vcxitems*{62e3b7ca-fbdf-4bb8-b184-a4b0ad44c292}*SharedItemsImports = 9
+		Libraries\GyverButton\3.8\GyverButton\GyverButton-3.8.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\GyverTimers\1.9\GyverTimers\GyverTimers-1.9.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Segment\3.0.0\Segment\Segment-3.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\GyverTimers\1.9\GyverTimers\GyverTimers-1.9.vcxitems*{cb631ec7-412e-40fd-9c4f-33b3470218fd}*SharedItemsImports = 9
+		Libraries\GyverButton\3.8\GyverButton\GyverButton-3.8.vcxitems*{f444fce7-f10d-4bf2-899d-03b7df112cb6}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6C4BD07-7910-4FF9-9EBB-601EEEDD9D73}
+	EndGlobalSection
+EndGlobal

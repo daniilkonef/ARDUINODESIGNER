@@ -1,0 +1,20 @@
+C:\Users\edval\AppData\Local\Temp\VMBuilds\Project4_Version1\uno\Release\Project4_Version1.cpp.o: \
+ C:\Users\edval\AppData\Local\Temp\VMBuilds\Project4_Version1\uno\Release\Project4_Version1.cpp \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/arduino.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/binary.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/WCharacter.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/WString.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/HardwareSerial.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/Stream.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/Print.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/Printable.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/USBAPI.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/Arduino.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\variants\standard/pins_arduino.h \
+ D:\Projects\arduino-designer.ru\Project4\Version1\Visualstudio\Project4_Version1\Libraries\iarduino_RTC-1.3.4\1.3.4\iarduino_RTC-1.3.4\src/iarduino_RTC.h \
+ C:\Users\edval\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\cores\arduino/Arduino.h \
+ D:\Projects\arduino-designer.ru\Project4\Version1\Visualstudio\Project4_Version1\Libraries\iarduino_RTC-1.3.4\1.3.4\iarduino_RTC-1.3.4\src/memorysaver.h \
+ D:\Projects\arduino-designer.ru\Project4\Version1\Visualstudio\Project4_Version1\Libraries\iarduino_RTC-1.3.4\1.3.4\iarduino_RTC-1.3.4\src/iarduino_RTC_DS1302.h \
+ D:\Projects\arduino-designer.ru\Project4\Version1\Visualstudio\Project4_Version1\Libraries\iarduino_RTC-1.3.4\1.3.4\iarduino_RTC-1.3.4\src/iarduino_RTC_DS1307.h \
+ D:\Projects\arduino-designer.ru\Project4\Version1\Visualstudio\Project4_Version1\Libraries\iarduino_RTC-1.3.4\1.3.4\iarduino_RTC-1.3.4\src/iarduino_RTC_I2C.h \
+ D:\Projects\arduino-designer.ru\Project4\Version1\Visualstudio\Project4_Version1\Libraries\iarduino_RTC-1.3.4\1.3.4\iarduino_RTC-1.3.4\src/iarduino_RTC_DS3231.h
