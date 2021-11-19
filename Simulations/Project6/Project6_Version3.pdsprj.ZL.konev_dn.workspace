@@ -35,7 +35,7 @@
    <POPUP w="78" x="1837" flags="00000013" y="128" h="884" pid="4097" iid="4097">
     <PROPERTIES/>
    </POPUP>
-   <POPUP w="596" x="59" flags="00008023" y="702" h="250" pid="0" iid="11">
+   <POPUP w="596" x="98" flags="00008023" y="434" h="415" pid="0" iid="11">
     <PROPERTIES>
      <ITEM name="AutoEcho">0</ITEM>
      <ITEM name="HexMode">0</ITEM>
