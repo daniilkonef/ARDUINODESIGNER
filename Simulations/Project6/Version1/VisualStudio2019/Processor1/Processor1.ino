@@ -17,6 +17,13 @@
 uint8_t address = 0x68;
 MCP342x adc = MCP342x(address);
 
+double R1 = 1000.0; // Ohm
+double R2 = 1000.0; // Ohm
+double R3 = 1000.0; // Ohm
+double Rq = 0;     // Ohm
+double Vpwr = 4.096; // mV
+double Vdiff = 0.0; // mV
+
 
 
 void setup(void)
@@ -60,6 +67,16 @@ void loop(void)
     else {
         Serial.print("Value: ");
         Serial.println(value);
+
+        Vdiff = (value / 65536.0 * Vpwr ) * (-1);
+        Serial.print("Vdiff: ");
+        Serial.println(Vdiff);
+
+        Rq = ( R2*Vpwr - (R1+R2)*Vdiff ) * R3 / ( R1*Vpwr + (R1+R2)*Vdiff );
+
+        Serial.print("Rq: ");
+        Serial.println(Rq);
+
     }
 
     delay(1000);
