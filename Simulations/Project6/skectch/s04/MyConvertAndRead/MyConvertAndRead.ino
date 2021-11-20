@@ -1,3 +1,5 @@
+//D:\Projects\my_electronics\arduino-designer\Simulations\Project5\Version1\VisualStudio\Processor1
+
 #include <Wire.h>
 #include <MCP342x.h>
 
@@ -8,6 +10,8 @@
 // 0x68 is the default address for all MCP342x devices
 uint8_t address = 0x68;
 MCP342x adc = MCP342x(address);
+
+
 
 void setup(void)
 {
