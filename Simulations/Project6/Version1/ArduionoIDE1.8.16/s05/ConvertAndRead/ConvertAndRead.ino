@@ -6,7 +6,7 @@
 
 
 // 0x68 is the default address for all MCP342x devices
-uint8_t address = 0x68;
+uint8_t address = 0x69;
 MCP342x adc = MCP342x(address);
 
 void setup(void)
@@ -46,6 +46,10 @@ void loop(void)
   }
   else 
   {
+    Serial.println("Serial.println(address, HEX);");
+    Serial.println(address, HEX);
+    Serial.println("Serial.println(address, BIN);");
+    Serial.println(address, BIN);
     Serial.print("Value: ");
     Serial.println(value);
   }
