@@ -29,9 +29,7 @@ void setup(void)
   Serial.begin(9600);
   Wire.begin();
 
-  // Enable power for MCP342x (needed for FL100 shield only)
-  // pinMode(9, OUTPUT);
-  // digitalWrite(9, HIGH);
+  
   
   // Reset devices
   MCP342x::generalCallReset();
@@ -67,6 +65,8 @@ void loop(void)
 //    Serial.println(address, BIN);
 //    Serial.print("value_of_channel0: ");
 //    Serial.println(value_of_channel0);
+//    Serial.println("Serial.println(value_of_channel0, BIN);");
+//    Serial.println(value_of_channel0, BIN);
   }
   
 
@@ -93,6 +93,11 @@ void loop(void)
 
     voltage0 = value_of_channel0*( Vpwr/pow(2,18) )*2; //MCP342x::resolution18
     voltage1 = value_of_channel1*( Vpwr/pow(2,18) )*2; //MCP342x::resolution18
+
+    Serial.print("value_of_channel1: ");
+    Serial.println(value_of_channel1);
+    Serial.println("Serial.println(value_of_channel1, BIN);");
+    Serial.println(value_of_channel1, BIN);
     
 //    Serial.println("Serial.println(voltage0,6);");
 //    Serial.println(voltage0,6);
@@ -109,6 +114,10 @@ void loop(void)
     x1 = R2*Vpwr-(R1+R2)*Vdiff;
     x2 = R1*Vpwr+(R1+R2)*Vdiff;
     RQ=(x1/x2)*R3;
-    Serial.print("RQ="); Serial.println(RQ,6);
+    Serial.print("RQ="); Serial.println(RQ,2);
     delay(1000);
+
+    // Enable power for MCP342x (needed for FL100 shield only)
+   pinMode(9, OUTPUT);
+   digitalWrite(9, HIGH);
 }
