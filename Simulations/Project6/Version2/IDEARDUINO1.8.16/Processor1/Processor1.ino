@@ -1,4 +1,4 @@
-#include <MCP3202.h>
+#include <MCP3202.h> // 12-bit resolution
 
 //D13 - CK
 //D12 - DOUT
