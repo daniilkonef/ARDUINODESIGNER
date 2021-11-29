@@ -93,6 +93,7 @@ void loop(void)
 
     voltage0 = value_of_channel0*( Vpwr/pow(2,18) )*2; //MCP342x::resolution18
     voltage1 = value_of_channel1*( Vpwr/pow(2,18) )*2; //MCP342x::resolution18
+    
 //    Serial.println("Serial.println(voltage0,6);");
 //    Serial.println(voltage0,6);
 //    Serial.println("Serial.println(voltage1,6);");
