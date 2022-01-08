@@ -9,8 +9,7 @@ Project Logs*
 *.log
 *.txt
 ~$*.*
-*.htm
-*.html
+
 *.rep
 *Preview
 **/F1
