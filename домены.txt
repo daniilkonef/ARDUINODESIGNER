@@ -6,3 +6,4 @@ system-designer
 hard-lab.ru 
 HARDLAB
 micro-code
+jetstars.ru		свободен
