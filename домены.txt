@@ -8,3 +8,7 @@ HARDLAB
 micro-code
 jetstars.ru		свободен
 jet-systems.ru
+hardlab-journal
+
+HARDLAB
+journal
