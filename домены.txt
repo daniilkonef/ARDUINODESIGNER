@@ -12,3 +12,4 @@ hardlab-journal
 
 HARDLAB
 journal
+cpulab.ru
