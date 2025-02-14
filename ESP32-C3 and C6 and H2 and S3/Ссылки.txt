@@ -1,1 +1,2 @@
 https://rutube.ru/video/59c9b7c405c76d9df0096b4abe0a7001/
+https://docs.espressif.com/projects/esp-iot-solution/en/latest/usb/usb_overview/usb_serial_jtag.html
